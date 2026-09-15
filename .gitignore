@@ -1,0 +1,22 @@
+# .NET and Visual Studio build/user files
+**/bin/
+**/obj/
+.vs/
+TestResults/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.coverage
+*.coveragexml
+
+# Project-local RTK binary and runtime state
+.tools/
+.rtk/state/
+
+# Local configuration may contain database credentials
+WebMedApp/appsettings.json
+WebMedApp/appsettings.Development.json
+WebMedApp/appsettings.*.local.json
+*.secrets.json

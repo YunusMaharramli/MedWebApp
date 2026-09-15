@@ -1,0 +1,6 @@
+@WebMedApp_HostAddress = http://localhost:5226
+
+GET {{WebMedApp_HostAddress}}/api/v1/client/weatherforecast
+Accept: application/json
+
+###
